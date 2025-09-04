@@ -1,5 +1,7 @@
-import './style.page.css';
-import HeroStats from "./components/HeroStats/HeroStats";
+import './components/ui/hero-section.css';
+import './components/ui/news-section.css';
+import HeroStats from "@/app/components/ui/HeroStats";
+import NewsSection from "./components/ui/NewsSection";
 
 export default function Home() {
   return (
@@ -22,6 +24,7 @@ export default function Home() {
           <h1 className="sct-title">Новости и события</h1>
           <p className="sct-subtitle">Актуальная информация о деятельности Госфильмофонда России</p>
         </div>
+        <NewsSection />
       </section>
     </main>
   );
